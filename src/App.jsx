@@ -10,7 +10,7 @@ import Footer from "./sections/Footer";
 
 function App() {
   return (
-    <main className="relative flex flex-col ">
+    <main className="relative flex flex-col overflow-x-hidden">
       <Nav />
       <section className="xl:padding-1 wide:padding-r padding-b">
         <Hero />
